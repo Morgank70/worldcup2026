@@ -62,7 +62,7 @@ function SearchResults() {
   }
 
   const results = getResults()
-  const filteredResults = city 
+  const filteredResults = city && city !== 'all-cities'
     ? results.filter(result => result.city.toLowerCase().replace(/\s|\//g, '-') === city)
     : results
 

@@ -41,7 +41,7 @@ export function GlobalSearch() {
       params.append('q', searchQuery.trim())
     }
     
-    if (selectedCity) {
+    if (selectedCity && selectedCity !== 'all-cities') {
       params.append('city', selectedCity)
     }
     
@@ -81,7 +81,7 @@ export function GlobalSearch() {
                 <SelectValue placeholder="All Cities" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Cities</SelectItem>
+                <SelectItem value="all-cities">All Cities</SelectItem>
                 {cities.map((city) => (
                   <SelectItem key={city} value={city.toLowerCase().replace(/\s/g, '-')}>
                     {city}
