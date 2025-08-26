@@ -1,7 +1,7 @@
 {
-  "name": "wc2026-project",
+  "name": "worldcup-hub",
   "version": "1.0.0",
-  "description": "World Cup 2026 project with Anthropic API integration",
+  "description": "WorldCup Hub - Complete World Cup 2026 fan platform",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,15 +10,36 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.28.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "@radix-ui/react-avatar": "^1.0.4",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-navigation-menu": "^1.1.4",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "lucide-react": "^0.294.0",
     "next": "14.0.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
     "eslint": "^8",
-    "eslint-config-next": "14.0.0"
+    "eslint-config-next": "14.0.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
   },
-  "keywords": ["worldcup", "wc2026", "anthropic", "nextjs"],
+  "keywords": ["worldcup", "wc2026", "tourism", "nextjs"],
   "author": "Morgan Loewenherz",
   "license": "ISC"
 }
