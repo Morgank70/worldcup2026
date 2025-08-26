@@ -2,8 +2,10 @@
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { MapPin, Hotel, UtensilsCrossed, PartyPopper, Car, ShoppingBag, ArrowLeft, Bot } from "lucide-react"
+import { GlobalSearch } from "@/components/global-search"
+import { MapPin, Hotel, UtensilsCrossed, PartyPopper, Car, ShoppingBag, ArrowLeft, Trophy, Star, Users, Calendar, Bot } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 import { useParams } from "next/navigation"
 
 const cityData: Record<string, any> = {
